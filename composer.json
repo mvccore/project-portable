@@ -1,5 +1,5 @@
 {
-	"name": "mvccore/project-packager",
+	"name": "mvccore/project-portable",
 	"type": "application",
 	"description": "MvcCore Project - Packager - empty project structure how to build portable, single PHP file applications or it's variants.",
 	"keywords": [
