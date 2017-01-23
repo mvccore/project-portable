@@ -17,6 +17,8 @@ cd project-portable
 
 # load MvcCore basic project
 composer create-project mvccore/project-basic development
+
+# ... now you can do anything in development directory
 ```
 
 ## Build
