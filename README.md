@@ -1,6 +1,6 @@
 # MvcCore Project - Portable
 
-[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.1.6-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.1.7-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
 [![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/blob/master/LICENCE.md)
 [![Packager Build](https://img.shields.io/badge/Packager%20Build-passing-brightgreen.svg?style=plastic)](https://github.com/mvccore/packager)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.3-brightgreen.svg?style=plastic)

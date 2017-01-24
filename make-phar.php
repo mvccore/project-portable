@@ -5,7 +5,7 @@
 	
 
 	// include basic configuration for PHAR packing:
-	include_once('.packager/config-phar-with-composer.php');
+	include_once('.packager/config-phar.php');
 
 	
 	Packager_Phar::Create($config)

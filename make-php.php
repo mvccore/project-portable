@@ -6,22 +6,22 @@
 
 	// to pack PHP scripts, templates and all static files (CSS/JS/images and fonts),
 	// use this config bellow:
-	include_once('.packager/config-php-with-composer-strict-package.php');
+	include_once('.packager/config-php-strict-package.php');
 
 
 	// to pack PHP scripts and templates but without any static files,
 	// use this config bellow and follow copying instructions inside:
-	//include_once('.packager/config-php-with-composer-preserve-package.php');
+	//include_once('.packager/config-php-preserve-package.php');
 
 
 	// to pack PHP scripts and templates but without any static files,
 	// use this config bellow and follow copying instructions inside:
-	//include_once('.packager/config-php-with-composer-preserve-hdd.php');
+	//include_once('.packager/config-php-preserve-hdd.php');
 
 
 	// to pack only PHP scripts without any static files and any templates,
 	// use this config bellow and follow copying instructions inside:
-	//include_once('.packager/config-php-with-composer-strict-hdd.php');
+	//include_once('.packager/config-php-strict-hdd.php');
 
 
 	Packager_Php::Create($config)
