@@ -40,8 +40,6 @@ $config = array(
 		// Switch MvcCore application back from SFU mode to automatic compile mode detection
 		'MvcCore::GetInstance()->Run(1);'			=> 'MvcCore::GetInstance()->Run();',
 		'$app->Run(1);'								=> '$app->Run();',
-		// Remove tracy debug library extension usage (optional):
-		"->SetDebugClass(MvcCoreExt_Tracy::class)"	=> "",
 	),
 	'minifyTemplates'		=> 1,// Remove non-conditional comments and whitespaces
 	'minifyPhp'				=> 1,// Remove comments and whitespaces
