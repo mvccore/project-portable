@@ -1,11 +1,11 @@
-# MvcCore Project - Packager
+# MvcCore Project - Portable
 
-[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.1.3-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.1.0-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
 [![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/blob/master/LICENCE.md)
 [![Packager Build](https://img.shields.io/badge/Packager%20Build-passing-brightgreen.svg?style=plastic)](https://github.com/mvccore/packager)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.3-brightgreen.svg?style=plastic)
 
-[**MvcCore**](https://github.com/mvccore/mvccore)  Project - [**Packager**](https://github.com/mvccore/packager) - empty project structure how to build portable, single PHP file applications or it's variants.
+[**MvcCore**](https://github.com/mvccore/mvccore)  Project - Portable - empty project structure how to build portable, single PHP file applications or it's variants with MvcCore [**Packager**](https://github.com/mvccore/packager) library.
 
 ## Instalation
 ```shell
@@ -17,6 +17,8 @@ cd project-portable
 
 # load MvcCore basic project
 composer create-project mvccore/project-basic development
+
+# ... now you can do anything in development dir
 ```
 
 ## Build
