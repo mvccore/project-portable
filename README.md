@@ -15,8 +15,8 @@ composer create-project mvccore/project-portable
 # go to project root dir
 cd project-portable
 
-# load MvcCore basic project
-composer create-project mvccore/project-basic development
+# load MvcCore basic portable project
+composer create-project mvccore/project-basic-portable development
 
 # ... now you can do anything in development dir
 ```
