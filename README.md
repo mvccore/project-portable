@@ -1,7 +1,7 @@
 # MvcCore Project - Portable
 
-[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.1.7-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
-[![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/blob/master/LICENCE.md)
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v3.2.0-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
+[![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://mvccore.github.io/docs/mvccore/3.0.0/LICENCE.md)
 [![Packager Build](https://img.shields.io/badge/Packager%20Build-passing-brightgreen.svg?style=plastic)](https://github.com/mvccore/packager)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.3-brightgreen.svg?style=plastic)
 
@@ -26,7 +26,7 @@ composer create-project mvccore/project-basic-portable development
 ### 1. Prepare application
 - go to `project-portable/development`
 - clear everything in `./Var/Tmp/`
-- change `$app->Run();` to `$app->Run();` in `./index.php`
+- change `$app->Run();` to `$app->Run(1);` in `./index.php`
 - visit all aplication routes where are different JS/CSS bundles 
   groups to generate `./Var/Tmp/` content for result app
 - run build process
