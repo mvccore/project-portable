@@ -56,4 +56,5 @@ composer.lock
 vendor/*
 development/vendor/*
 *.phpproj
+*.phpproj.user
 .vs
