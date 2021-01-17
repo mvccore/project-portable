@@ -1,7 +1,7 @@
 {
 	"name": "mvccore/project-portable",
 	"type": "project",
-	"description": "MvcCore - Project - Basic - Portable Structure - basic website template project packing demonstration.",
+	"description": "MvcCore - Project - Basic - Template For Portable Packing - basic website template project packing demonstration.",
 	"keywords": [
 		"mvccore",
 		"single-file",
@@ -19,10 +19,12 @@
 		"portable"
 	],
 	"license": [ "BSD-3-Clause" ],
-	"authors": [{
-		"name": "Tom Flidr",
-		"homepage": "https://github.com/tomFlidr"
-	}],
+	"authors": [
+		{
+			"name": "Tom Flidr",
+			"homepage": "https://github.com/tomFlidr"
+		}
+	],
 	"require": {
 		"php": ">=5.4.0",
 		"mrclay/minify": "2.3.*",

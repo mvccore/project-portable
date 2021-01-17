@@ -1,7 +1,7 @@
-# MvcCore - Template Project - Portable Skeleton
+# MvcCore - Project - Template For Portable Packing
 
 [![Latest Stable Version](https://img.shields.io/badge/Stable-v5.0.0-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
-[![License](https://img.shields.io/badge/Licence-BSD-brightgreen.svg?style=plastic)](https://mvccore.github.io/docs/mvccore/4.0.0/LICENCE.md)
+[![License](https://img.shields.io/badge/License-BSD%203-brightgreen.svg?style=plastic)](https://mvccore.github.io/docs/mvccore/5.0.0/LICENCE.md)
 [![Packager Build](https://img.shields.io/badge/Packager%20Build-passing-brightgreen.svg?style=plastic)](https://github.com/mvccore/packager)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.4-brightgreen.svg?style=plastic)
 
@@ -12,10 +12,10 @@
 ## Instalation
 ```shell
 # load MvcCore project template skeleton for portable packing/building
-composer create-project mvccore/project-portable my-portable-project-structure
+composer create-project mvccore/project-portable ./my-portable-project
 
 # go to project root dir
-cd my-portable-project-structure
+cd my-portable-project
 
 # load MvcCore basic website project template for portable packing/building
 composer create-project mvccore/project-basic-portable development
