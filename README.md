@@ -1,6 +1,6 @@
 # MvcCore - Project - Template For Portable Packing
 
-[![Latest Stable Version](https://img.shields.io/badge/Stable-v5.0.0-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
+[![Latest Stable Version](https://img.shields.io/badge/Stable-v5.2.0-brightgreen.svg?style=plastic)](https://github.com/mvccore/project-portable/releases)
 [![License](https://img.shields.io/badge/License-BSD%203-brightgreen.svg?style=plastic)](https://mvccore.github.io/docs/mvccore/5.0.0/LICENSE.md)
 [![Packager Build](https://img.shields.io/badge/Packager%20Build-passing-brightgreen.svg?style=plastic)](https://github.com/mvccore/packager)
 ![PHP Version](https://img.shields.io/badge/PHP->=5.4-brightgreen.svg?style=plastic)
@@ -28,7 +28,7 @@ composer create-project mvccore/project-basic-portable development
 ### 1. Prepare application
 - go to `my-portable-project-structure/development`
 - clear everything in `./Var/Tmp/`
-- change `$app->Run();` to `$app->Run(1);` in `./index.php`
+- uncomment `->SetCompiled(\MvcCore\Application::COMPILED_SFU)` in `./index.php`
 - visit all application routes where are different JS/CSS bundles 
   groups to generate `./Var/Tmp/` content for result app
 - run build process
@@ -38,7 +38,7 @@ composer create-project mvccore/project-basic-portable development
 #### Linux:
 ```shell
 # go to project root dir
-cd my-portable-project-structure
+cd ./my-portable-project/build
 # run build process into single PHP file
 sh make.sh
 ```
@@ -46,7 +46,7 @@ sh make.sh
 #### Windows:
 ```shell
 # go to project root dir
-cd my-portable-project-structure
+cd ./my-portable-project/build
 # run build process into single PHP file
 make.cmd
 ```
@@ -54,11 +54,11 @@ make.cmd
 #### Browser:
 ```shell
 # visit script `make-php.php` in your project root directory:
-http://localhost/my-portable-project-structure/build/make-php.php
+http://localhost/my-portable-project/build/make-php.php
 ```
 
 ## Result
-- Now you can find the result on **http://localhost/my-portable-project-structure/build/release/**
+- Now you can find the result on **http://localhost/my-portable-project/build/release/**
 - Result is in strict package mode completely portable os only one single PHP file.
 
 
